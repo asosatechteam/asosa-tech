@@ -1,0 +1,1 @@
+define(["jquery","touchSwipe","sliders","wow"],function(){$(".slider-for-ios").sliderObject("projectSlider"),$(".slider-for-android").sliderObject("projectSliderAndroid"),new WOW({boxClass:"wow",animateClass:"animated",mobile:!1,scrollContainer:null}).init(),$(".work-slider-wrapper").sliderObject("workSlider")});

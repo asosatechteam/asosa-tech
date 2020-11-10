@@ -1,0 +1,1 @@
+define(["jquery"],function(){getClientId=function(){try{var a=ga.getAll()[0];return parseInt(a.get("clientId",10))}catch(a){console.log("Error fetching clientId")}}});
